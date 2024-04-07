@@ -2,3 +2,4 @@ Libs/
 bin/
 obj/
 obj/Debug/net461
+.vs/
