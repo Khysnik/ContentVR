@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "WGUdcgD2T0GnmHvIa00NhL43kMbZP1vm89D0d/JtMDEr1hH9c8PO4xZ8Bwmg8ql9sxXwc0i062xFuPGlbGekMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pangea\\Downloads\\temp\\MyFirstPlugin\\MyFirstPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pangea\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\bepinex.core\\5.4.21\\bepinex.core.5.4.21.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\bepinex.plugininfoprops\\1.1.0\\bepinex.plugininfoprops.1.1.0.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\harmonyx\\2.7.0\\harmonyx.2.7.0.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.2\\microsoft.netframework.referenceassemblies.net461.1.0.2.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\monomod.runtimedetour\\21.12.13.1\\monomod.runtimedetour.21.12.13.1.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\monomod.utils\\21.12.13.1\\monomod.utils.21.12.13.1.nupkg.sha512",
+    "C:\\Users\\Pangea\\.nuget\\packages\\unityengine.modules\\2022.3.10\\unityengine.modules.2022.3.10.nupkg.sha512"
+  ],
+  "logs": []
+}
