@@ -1,3 +1,4 @@
 Libs/
 bin/
-obj/*
+obj/
+obj/Debug/net461
