@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.XR.Management;
 using UnityEngine.XR.OpenXR;
@@ -11,9 +12,9 @@ using Unity.XR.OpenVR;
 using HarmonyLib;
 using Valve.VR;
 
-
 namespace ContentVR
 {
+    
 
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
@@ -39,6 +40,18 @@ namespace ContentVR
         //Create a class that actually inherits from MonoBehaviour
         public class MyStaticMB : MonoBehaviour
         {
+
+            protected virtual void Update()
+            {
+                MainCamera mainCamera = MainCamera.instance;
+                Camera cam = mainCamera.cam;
+                
+                if(Plugin.SecondCam && cam)
+                {
+                    CameraPatches.HandleStereoRendering();
+                }
+
+            }
         }
 
         //Variable reference for the class
