@@ -18,9 +18,9 @@ namespace ContentVR
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PLUGIN_GUID = "com.HerrFristi.VRMods.VRath";
-        public const string PLUGIN_NAME = "VRMaker";
-        public const string PLUGIN_VERSION = "0.0.2";
+        public const string PLUGIN_GUID = "com.Khysnik.CWVR";
+        public const string PLUGIN_NAME = "ContentVR";
+        public const string PLUGIN_VERSION = "1.0.1";
 
         public static string gameExePath = Process.GetCurrentProcess().MainModule.FileName;
         public static string gamePath = Path.GetDirectoryName(gameExePath);
